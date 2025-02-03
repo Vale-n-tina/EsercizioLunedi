@@ -14,7 +14,7 @@ public class MenuConfig {
 
     @Bean
     public List<Pizza> listaPizze() {
-        Pizza margherita = new Pizza("Pizza Margherita", 8, 99, List<Topping> toppings);
+        Pizza margherita = new Pizza("Pizza Margherita", 8, 99,new ArrayList<>());
     }
 
     // @Bean
