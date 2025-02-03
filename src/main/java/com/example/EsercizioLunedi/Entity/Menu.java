@@ -13,5 +13,6 @@ import java.util.List;
 public class Menu {
     private List<Pizza> pizze = new ArrayList<>();
     private List<Topping> toppings = new ArrayList<>();
+    private List<Bevanda> bevande =new ArrayList<>();
 
 }
